@@ -16,4 +16,4 @@ Lazer.from([2, 4, 8])
 
 ### Why Lazer?
 
-In general, `Lazer` is a little bit slower then `Array` because of its complexity, but `Lazer` can make you decrease a lot of memory usage.
+In general, `Lazer` is a little bit slower than `Array` because of its complexity, but `Lazer` can make you decrease a lot of memory usage.
