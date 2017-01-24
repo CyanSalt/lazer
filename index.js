@@ -33,8 +33,8 @@ export class Lazer {
 		}.bind(this))
 	}
 
-	reduce(callback, initialValue) {
-		let i = 0, accum = initialValue
+	reduce(callback, ...args) {
+		let i = 0, accum = args.length ? args[0] : this[Symbol.iterator].next()
 		for (let item of this) {
 			accum = callback(accum, item, i++, this)
 		}

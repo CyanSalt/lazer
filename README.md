@@ -9,7 +9,7 @@ import Lazer from 'somewhere'
 Lazer.from([2, 4, 8])
 	.filter(i => i > 3)
 	.map(i => i + 1)
-	.reduce((a, c) => a + c)
+	.reduce((a, c) => a + c, 0)
 // 14
 
 ```
